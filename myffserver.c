@@ -1,3 +1,7 @@
+/*
+ * This file is part of https://github.com/harshil1991/myffserver which is released under Apache License Version 2.0.
+ * See file LICENSE for full license details.
+*/
 #include "myffserver.h"
 
 const char program_name[] = "ffserver";
