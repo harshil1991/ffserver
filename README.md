@@ -1,4 +1,4 @@
-# ffserver
+# standalone ffserver source code
 
 This project contains separated ffserver code which is used for RTSP server only.
 
@@ -12,7 +12,7 @@ To run RTSP server, put /etc/ffserver.conf, and it's content would be as below:
 
 cat /etc/ffserver.conf 
 RTSPPort 8554  <--------- Can be modified
-<Stream test.h264> <------ sesson name
+<Stream test.h264> <------ session name
     Format rtp
     File big_buck_bunny.mp4  <------ This file will be streamed, put this file in current directory
 </Stream>
